@@ -1,0 +1,359 @@
+[
+    {
+        "data": {
+            "after": null,
+            "before": null,
+            "children": [
+                {
+                    "data": {
+                        "approved_by": null,
+                        "author": "aspensmonster",
+                        "author_flair_css_class": null,
+                        "author_flair_text": null,
+                        "banned_by": null,
+                        "clicked": false,
+                        "created": 1374004594.0,
+                        "created_utc": 1373975794.0,
+                        "distinguished": null,
+                        "domain": "self.HailCorporate",
+                        "downs": 18,
+                        "edited": 1373976063.0,
+                        "hidden": false,
+                        "id": "1iep4e",
+                        "is_self": true,
+                        "likes": null,
+                        "link_flair_css_class": null,
+                        "link_flair_text": null,
+                        "media": null,
+                        "media_embed": {},
+                        "name": "t3_1iep4e",
+                        "num_comments": 9,
+                        "num_reports": null,
+                        "over_18": false,
+                        "permalink": "/r/HailCorporate/comments/1iep4e/amazon_affiliate_link_infestation/",
+                        "saved": false,
+                        "score": 13,
+                        "selftext": "Prior to logging in I noticed the following on the front page from the default /r/Music subreddit:\n\n[Kanye West's New T-Shirt is a $120 plain, white t-shirt](http://www.reddit.com/r/Music/comments/1idodh/kanye_wests_new_shirt_is_a_120_plain_white_tshirt/)\n\nAttached to the third top comment was [this comment](http://www.reddit.com/r/Music/comments/1idodh/kanye_wests_new_shirt_is_a_120_plain_white_tshirt/cb3klow) by /u/IHatePicklez, a user for 11 hours, which reads:\n\n&gt;Hopefully the knockoffs only /r/cost/[1] like $70-$80 each like a normal shirt. I mean, these are nice, but not worth over $110.00\n\nUpon visiting /r/cost I noticed it was laced with Amazon Affiliate links to all sorts of junk, and the sidebar mentioned it included Amazon affiliate links. I then took a look at /u/IHatePicklez [comment history](http://www.reddit.com/user/IHatePicklez) and found myself diving into an infestation of affiliate-link laden subreddits, some declaring openly in the sidebar what they were doing, while others not doing so. Diving into one moderator's or commenter's comment history lead me down a rabbit hole of even more subreddits that they had name-dropped. This process repeated ad nauseum. Here is a table, documenting each Amazon Affiliate Subreddit, its age, and its moderators and their ages along with some other info.\n\n| Subreddit Name | Subreddit Age | Moderators | Moderator's Age| Moderator's Link/Comment Karma|Does Moderator Link/Post to any of these subreddits?|\n|:-|:-|:-|:-|:-|:-|\n|/r/cost|3 months|/u/BubbleHump (404)|3 months| 1/0 |No|\n|/r/WeirdStuffForSale|7 days|/u/WeirdStuffForSale4 (404)|8 days| 1/0|No|\n|||/u/TufBells247|11 days|11/57|Yes|\n|||/u/BubbleTroubl3|4 days|50/371|Yes|\n|/r/wtfamazon|5 months|/u/Jeeperzcreeperz (404) |5 months 21 days|53/0|Yes|\n|/r/UnexpectedlyAwesome|13 hours|/u/StealingFries|1 day|6/2|Yes|\n|/r/GameFreaks|7 days|/u/HipHopBunnys|8 days|3/0|Yes|\n|||/u/BubbleTroubl3|4 days|50/371|Yes|\n|/r/shutupandtakemymoneys|6 months|/u/Shewantsthedingdong (404) | 7 months 4 days| 7/923|Yes|\n|||/u/hatenfake (404)|1 year 3 months|346/104|Yes|\n|||/u/TheRealDealz (404)|6 months 5 days|46/-3|Yes|\n|/r/ACaseOfTheMondays|2 days|/u/TimmyRussler |3 days|17/357|Yes|\n|/r/watched|3 months|/u/MoviesAndTVs (404)|3 months|24/0|Yes|\n|/r/toomuch|4 months|/u/Jelloshooters (404)|4 months 11 days|254/159|Yes|\n|/r/HipsterLogic|4 months|/u/Internetloservirgin (404)|4 months 4 days|37/382|Yes|\n|||/u/Shrimpsoups (404)|4 months 9 days|180/90|?|\n|/r/classiest| 4 months | /u/Jigglypudd (404) | 4 months 6 days| 45/-2 | Yes|\n|/r/JustForMen| 4 months | /u/Subtlefriedchicken (404) |4 months 11 days|31/0|Yes|\n|||/u/Jelloshooters (404)| 4 months 11 days | 254/159 |Yes|\n|||/u/Realchrisrock (404)| 5 months 22 days | 134/99 |Yes|\n\nMost of these moderators, along with other users posting/referencing these subreddits, are sure to mix in typical imgur material with their amazon postings, even if the amazon stuff floats to /top. From what I can tell, this is a relatively new strategy, as some of the older subreddits at the bottom of the table don't appear to have any imgur content. As well, the moderators (and other commenters that reference these subs) will often have comments that blend in with the conversation, while dropping a random /r/subredditlink such as one of those above. A big part of the problem to me is that **even if the mods are hellbanned** --I'm assuming that's why some of those mod's user pages are 404'ing-- the subreddit itself **is still there** and constantly getting name-dropped by other spammy users, ensuring that the affiliate links **still get plenty of hits**.\n\nJudging by the relative ages of some of these subreddits and users, I take it I'm late to the party noticing all of this, but it's irritating as hell in any case. Makes me want to write a bot that scans for this sort of stuff and run statistical analysis over the users, mods, subreddits, and comment/link characteristics and apply some heuristics to come up with a dynamic blacklist for this garbage. I really don't care if the subreddit mentions the Amazon Affiliate program in the sidebar or not. As far as I'm concerned, this sort of thing deserves a blanket ban-hammer.\n\nAnd I wasn't even finished tumbling down the rabbit hole. Got tired of adding row by row to that table after about an hour. But the process can definitely be automatized...",
+                        "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Prior to logging in I noticed the following on the front page from the default &lt;a href=\"/r/Music\"&gt;/r/Music&lt;/a&gt; subreddit:&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"http://www.reddit.com/r/Music/comments/1idodh/kanye_wests_new_shirt_is_a_120_plain_white_tshirt/\"&gt;Kanye West&amp;#39;s New T-Shirt is a $120 plain, white t-shirt&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;Attached to the third top comment was &lt;a href=\"http://www.reddit.com/r/Music/comments/1idodh/kanye_wests_new_shirt_is_a_120_plain_white_tshirt/cb3klow\"&gt;this comment&lt;/a&gt; by &lt;a href=\"/u/IHatePicklez\"&gt;/u/IHatePicklez&lt;/a&gt;, a user for 11 hours, which reads:&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;Hopefully the knockoffs only &lt;a href=\"/r/cost/\"&gt;/r/cost/&lt;/a&gt;[1] like $70-$80 each like a normal shirt. I mean, these are nice, but not worth over $110.00&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;Upon visiting &lt;a href=\"/r/cost\"&gt;/r/cost&lt;/a&gt; I noticed it was laced with Amazon Affiliate links to all sorts of junk, and the sidebar mentioned it included Amazon affiliate links. I then took a look at &lt;a href=\"/u/IHatePicklez\"&gt;/u/IHatePicklez&lt;/a&gt; &lt;a href=\"http://www.reddit.com/user/IHatePicklez\"&gt;comment history&lt;/a&gt; and found myself diving into an infestation of affiliate-link laden subreddits, some declaring openly in the sidebar what they were doing, while others not doing so. Diving into one moderator&amp;#39;s or commenter&amp;#39;s comment history lead me down a rabbit hole of even more subreddits that they had name-dropped. This process repeated ad nauseum. Here is a table, documenting each Amazon Affiliate Subreddit, its age, and its moderators and their ages along with some other info.&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;Subreddit Name&lt;/th&gt;\n&lt;th align=\"left\"&gt;Subreddit Age&lt;/th&gt;\n&lt;th align=\"left\"&gt;Moderators&lt;/th&gt;\n&lt;th align=\"left\"&gt;Moderator&amp;#39;s Age&lt;/th&gt;\n&lt;th align=\"left\"&gt;Moderator&amp;#39;s Link/Comment Karma&lt;/th&gt;\n&lt;th align=\"left\"&gt;Does Moderator Link/Post to any of these subreddits?&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/r/cost\"&gt;/r/cost&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;3 months&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/BubbleHump\"&gt;/u/BubbleHump&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;3 months&lt;/td&gt;\n&lt;td align=\"left\"&gt;1/0&lt;/td&gt;\n&lt;td align=\"left\"&gt;No&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/r/WeirdStuffForSale\"&gt;/r/WeirdStuffForSale&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;7 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/WeirdStuffForSale4\"&gt;/u/WeirdStuffForSale4&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;8 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;1/0&lt;/td&gt;\n&lt;td align=\"left\"&gt;No&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/TufBells247\"&gt;/u/TufBells247&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;11 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;11/57&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/BubbleTroubl3\"&gt;/u/BubbleTroubl3&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;4 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;50/371&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/r/wtfamazon\"&gt;/r/wtfamazon&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;5 months&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/Jeeperzcreeperz\"&gt;/u/Jeeperzcreeperz&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;5 months 21 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;53/0&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/r/UnexpectedlyAwesome\"&gt;/r/UnexpectedlyAwesome&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;13 hours&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/StealingFries\"&gt;/u/StealingFries&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;1 day&lt;/td&gt;\n&lt;td align=\"left\"&gt;6/2&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/r/GameFreaks\"&gt;/r/GameFreaks&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;7 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/HipHopBunnys\"&gt;/u/HipHopBunnys&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;8 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;3/0&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/BubbleTroubl3\"&gt;/u/BubbleTroubl3&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;4 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;50/371&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/r/shutupandtakemymoneys\"&gt;/r/shutupandtakemymoneys&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;6 months&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/Shewantsthedingdong\"&gt;/u/Shewantsthedingdong&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;7 months 4 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;7/923&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/hatenfake\"&gt;/u/hatenfake&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;1 year 3 months&lt;/td&gt;\n&lt;td align=\"left\"&gt;346/104&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/TheRealDealz\"&gt;/u/TheRealDealz&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;6 months 5 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;46/-3&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/r/ACaseOfTheMondays\"&gt;/r/ACaseOfTheMondays&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;2 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/TimmyRussler\"&gt;/u/TimmyRussler&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;3 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;17/357&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/r/watched\"&gt;/r/watched&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;3 months&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/MoviesAndTVs\"&gt;/u/MoviesAndTVs&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;3 months&lt;/td&gt;\n&lt;td align=\"left\"&gt;24/0&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/r/toomuch\"&gt;/r/toomuch&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;4 months&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/Jelloshooters\"&gt;/u/Jelloshooters&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;4 months 11 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;254/159&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/r/HipsterLogic\"&gt;/r/HipsterLogic&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;4 months&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/Internetloservirgin\"&gt;/u/Internetloservirgin&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;4 months 4 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;37/382&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/Shrimpsoups\"&gt;/u/Shrimpsoups&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;4 months 9 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;180/90&lt;/td&gt;\n&lt;td align=\"left\"&gt;?&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/r/classiest\"&gt;/r/classiest&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;4 months&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/Jigglypudd\"&gt;/u/Jigglypudd&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;4 months 6 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;45/-2&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/r/JustForMen\"&gt;/r/JustForMen&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;4 months&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/Subtlefriedchicken\"&gt;/u/Subtlefriedchicken&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;4 months 11 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;31/0&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/Jelloshooters\"&gt;/u/Jelloshooters&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;4 months 11 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;254/159&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;a href=\"/u/Realchrisrock\"&gt;/u/Realchrisrock&lt;/a&gt; (404)&lt;/td&gt;\n&lt;td align=\"left\"&gt;5 months 22 days&lt;/td&gt;\n&lt;td align=\"left\"&gt;134/99&lt;/td&gt;\n&lt;td align=\"left\"&gt;Yes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;Most of these moderators, along with other users posting/referencing these subreddits, are sure to mix in typical imgur material with their amazon postings, even if the amazon stuff floats to /top. From what I can tell, this is a relatively new strategy, as some of the older subreddits at the bottom of the table don&amp;#39;t appear to have any imgur content. As well, the moderators (and other commenters that reference these subs) will often have comments that blend in with the conversation, while dropping a random &lt;a href=\"/r/subredditlink\"&gt;/r/subredditlink&lt;/a&gt; such as one of those above. A big part of the problem to me is that &lt;strong&gt;even if the mods are hellbanned&lt;/strong&gt; --I&amp;#39;m assuming that&amp;#39;s why some of those mod&amp;#39;s user pages are 404&amp;#39;ing-- the subreddit itself &lt;strong&gt;is still there&lt;/strong&gt; and constantly getting name-dropped by other spammy users, ensuring that the affiliate links &lt;strong&gt;still get plenty of hits&lt;/strong&gt;.&lt;/p&gt;\n\n&lt;p&gt;Judging by the relative ages of some of these subreddits and users, I take it I&amp;#39;m late to the party noticing all of this, but it&amp;#39;s irritating as hell in any case. Makes me want to write a bot that scans for this sort of stuff and run statistical analysis over the users, mods, subreddits, and comment/link characteristics and apply some heuristics to come up with a dynamic blacklist for this garbage. I really don&amp;#39;t care if the subreddit mentions the Amazon Affiliate program in the sidebar or not. As far as I&amp;#39;m concerned, this sort of thing deserves a blanket ban-hammer.&lt;/p&gt;\n\n&lt;p&gt;And I wasn&amp;#39;t even finished tumbling down the rabbit hole. Got tired of adding row by row to that table after about an hour. But the process can definitely be automatized...&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+                        "subreddit": "HailCorporate",
+                        "subreddit_id": "t5_2t1sc",
+                        "thumbnail": "",
+                        "title": "Amazon Affiliate Link Infestation",
+                        "ups": 31,
+                        "url": "http://www.reddit.com/r/HailCorporate/comments/1iep4e/amazon_affiliate_link_infestation/"
+                    },
+                    "kind": "t3"
+                }
+            ],
+            "modhash": ""
+        },
+        "kind": "Listing"
+    },
+    {
+        "data": {
+            "after": null,
+            "before": null,
+            "children": [
+                {
+                    "data": {
+                        "approved_by": null,
+                        "author": "kenlayisalive",
+                        "author_flair_css_class": null,
+                        "author_flair_text": null,
+                        "banned_by": null,
+                        "body": "Incredible job. Users like you are why this subreddit is awesome.",
+                        "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Incredible job. Users like you are why this subreddit is awesome.&lt;/p&gt;\n&lt;/div&gt;",
+                        "created": 1374038503.0,
+                        "created_utc": 1374009703.0,
+                        "distinguished": null,
+                        "downs": 1,
+                        "edited": false,
+                        "gilded": 0,
+                        "id": "cb41b5x",
+                        "likes": null,
+                        "link_id": "t3_1iep4e",
+                        "name": "t1_cb41b5x",
+                        "num_reports": null,
+                        "parent_id": "t3_1iep4e",
+                        "replies": "",
+                        "score_hidden": false,
+                        "subreddit": "HailCorporate",
+                        "subreddit_id": "t5_2t1sc",
+                        "ups": 6
+                    },
+                    "kind": "t1"
+                },
+                {
+                    "data": {
+                        "approved_by": null,
+                        "author": "ICEYHOT2",
+                        "author_flair_css_class": null,
+                        "author_flair_text": null,
+                        "banned_by": null,
+                        "body": "wow you are getting a lot of downvotes",
+                        "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;wow you are getting a lot of downvotes&lt;/p&gt;\n&lt;/div&gt;",
+                        "created": 1374035188.0,
+                        "created_utc": 1374006388.0,
+                        "distinguished": null,
+                        "downs": 0,
+                        "edited": 1374087047.0,
+                        "gilded": 0,
+                        "id": "cb3zyrr",
+                        "likes": null,
+                        "link_id": "t3_1iep4e",
+                        "name": "t1_cb3zyrr",
+                        "num_reports": null,
+                        "parent_id": "t3_1iep4e",
+                        "replies": {
+                            "data": {
+                                "after": null,
+                                "before": null,
+                                "children": [
+                                    {
+                                        "data": {
+                                            "approved_by": null,
+                                            "author": "aspensmonster",
+                                            "author_flair_css_class": null,
+                                            "author_flair_text": null,
+                                            "banned_by": null,
+                                            "body": "Huh. Maybe I said something wrong :)",
+                                            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Huh. Maybe I said something wrong :)&lt;/p&gt;\n&lt;/div&gt;",
+                                            "created": 1374035467.0,
+                                            "created_utc": 1374006667.0,
+                                            "distinguished": null,
+                                            "downs": 0,
+                                            "edited": false,
+                                            "gilded": 0,
+                                            "id": "cb402z1",
+                                            "likes": null,
+                                            "link_id": "t3_1iep4e",
+                                            "name": "t1_cb402z1",
+                                            "num_reports": null,
+                                            "parent_id": "t1_cb3zyrr",
+                                            "replies": {
+                                                "data": {
+                                                    "after": null,
+                                                    "before": null,
+                                                    "children": [
+                                                        {
+                                                            "data": {
+                                                                "approved_by": null,
+                                                                "author": "ICEYHOT2",
+                                                                "author_flair_css_class": null,
+                                                                "author_flair_text": null,
+                                                                "banned_by": null,
+                                                                "body": "so presumably those who add the affiliate reddits must be alternate or farmed accounts who then also keep the links up amongst the cover reposts and downvoting ones like this.\n\nThe r/cost subreddit had \"24 users here now\" when I glanced so as a reddit strategy it's possibly worthwhile you need a lot of users of loads of subreddits to make it pay out though.",
+                                                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;so presumably those who add the affiliate reddits must be alternate or farmed accounts who then also keep the links up amongst the cover reposts and downvoting ones like this.&lt;/p&gt;\n\n&lt;p&gt;The r/cost subreddit had &amp;quot;24 users here now&amp;quot; when I glanced so as a reddit strategy it&amp;#39;s possibly worthwhile you need a lot of users of loads of subreddits to make it pay out though.&lt;/p&gt;\n&lt;/div&gt;",
+                                                                "created": 1374035832.0,
+                                                                "created_utc": 1374007032.0,
+                                                                "distinguished": null,
+                                                                "downs": 0,
+                                                                "edited": 1374087076.0,
+                                                                "gilded": 0,
+                                                                "id": "cb408dc",
+                                                                "likes": null,
+                                                                "link_id": "t3_1iep4e",
+                                                                "name": "t1_cb408dc",
+                                                                "num_reports": null,
+                                                                "parent_id": "t1_cb402z1",
+                                                                "replies": "",
+                                                                "score_hidden": false,
+                                                                "subreddit": "HailCorporate",
+                                                                "subreddit_id": "t5_2t1sc",
+                                                                "ups": 4
+                                                            },
+                                                            "kind": "t1"
+                                                        }
+                                                    ],
+                                                    "modhash": ""
+                                                },
+                                                "kind": "Listing"
+                                            },
+                                            "score_hidden": false,
+                                            "subreddit": "HailCorporate",
+                                            "subreddit_id": "t5_2t1sc",
+                                            "ups": 6
+                                        },
+                                        "kind": "t1"
+                                    }
+                                ],
+                                "modhash": ""
+                            },
+                            "kind": "Listing"
+                        },
+                        "score_hidden": false,
+                        "subreddit": "HailCorporate",
+                        "subreddit_id": "t5_2t1sc",
+                        "ups": 5
+                    },
+                    "kind": "t1"
+                },
+                {
+                    "data": {
+                        "approved_by": null,
+                        "author": "ICEYHOT2",
+                        "author_flair_css_class": null,
+                        "author_flair_text": null,
+                        "banned_by": null,
+                        "body": "/u/ButtonsMcFly\n\n/u/Friendlyguy291\n\n/u/Sprinkleberries\n\n/u/TellsTerribleJokes",
+                        "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a href=\"/u/ButtonsMcFly\"&gt;/u/ButtonsMcFly&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"/u/Friendlyguy291\"&gt;/u/Friendlyguy291&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"/u/Sprinkleberries\"&gt;/u/Sprinkleberries&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"/u/TellsTerribleJokes\"&gt;/u/TellsTerribleJokes&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;",
+                        "created": 1374037489.0,
+                        "created_utc": 1374008689.0,
+                        "distinguished": null,
+                        "downs": 1,
+                        "edited": 1374010694.0,
+                        "gilded": 0,
+                        "id": "cb40wrt",
+                        "likes": null,
+                        "link_id": "t3_1iep4e",
+                        "name": "t1_cb40wrt",
+                        "num_reports": null,
+                        "parent_id": "t3_1iep4e",
+                        "replies": "",
+                        "score_hidden": false,
+                        "subreddit": "HailCorporate",
+                        "subreddit_id": "t5_2t1sc",
+                        "ups": 4
+                    },
+                    "kind": "t1"
+                },
+                {
+                    "data": {
+                        "approved_by": null,
+                        "author": "aspensmonster",
+                        "author_flair_css_class": null,
+                        "author_flair_text": null,
+                        "banned_by": null,
+                        "body": "This is too much fun. I think I'm actually going to read up on reddit's API and script this.\n\n/u/ChickenFlavoredGum",
+                        "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;This is too much fun. I think I&amp;#39;m actually going to read up on reddit&amp;#39;s API and script this.&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"/u/ChickenFlavoredGum\"&gt;/u/ChickenFlavoredGum&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;",
+                        "created": 1374150924.0,
+                        "created_utc": 1374122124.0,
+                        "distinguished": null,
+                        "downs": 1,
+                        "edited": false,
+                        "gilded": 0,
+                        "id": "cb50rly",
+                        "likes": null,
+                        "link_id": "t3_1iep4e",
+                        "name": "t1_cb50rly",
+                        "num_reports": null,
+                        "parent_id": "t3_1iep4e",
+                        "replies": {
+                            "data": {
+                                "after": null,
+                                "before": null,
+                                "children": [
+                                    {
+                                        "data": {
+                                            "approved_by": null,
+                                            "author": "TheBestAdvicer",
+                                            "author_flair_css_class": null,
+                                            "author_flair_text": null,
+                                            "banned_by": null,
+                                            "body": "Well thats rude!",
+                                            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Well thats rude!&lt;/p&gt;\n&lt;/div&gt;",
+                                            "created": 1374286051.0,
+                                            "created_utc": 1374257251.0,
+                                            "distinguished": null,
+                                            "downs": 0,
+                                            "edited": false,
+                                            "gilded": 0,
+                                            "id": "cb63k6o",
+                                            "likes": null,
+                                            "link_id": "t3_1iep4e",
+                                            "name": "t1_cb63k6o",
+                                            "num_reports": null,
+                                            "parent_id": "t1_cb50rly",
+                                            "replies": "",
+                                            "score_hidden": false,
+                                            "subreddit": "HailCorporate",
+                                            "subreddit_id": "t5_2t1sc",
+                                            "ups": 1
+                                        },
+                                        "kind": "t1"
+                                    }
+                                ],
+                                "modhash": ""
+                            },
+                            "kind": "Listing"
+                        },
+                        "score_hidden": false,
+                        "subreddit": "HailCorporate",
+                        "subreddit_id": "t5_2t1sc",
+                        "ups": 3
+                    },
+                    "kind": "t1"
+                },
+                {
+                    "data": {
+                        "approved_by": null,
+                        "author": "IHatePicklez",
+                        "author_flair_css_class": null,
+                        "author_flair_text": null,
+                        "banned_by": null,
+                        "body": "You guys sound like you are shills for the Pickle industry. Don't be mad that I hate pickles. I am just tryin to get my reddit on and have some fun here. I'm not forcing anyone to check out subreddits I link to. I am just providing links I think are interesting to people. It is their choice what they want to check out.\n\nReddit has places like /r/ImGoingToHellForThis and /r/deadbabyjokes and/r/spacedicks  but you are gettin mad at me? Jesus get your priorities straight. I'm not spamming links to my own sites, I try to find  a variety of sources to link to.",
+                        "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You guys sound like you are shills for the Pickle industry. Don&amp;#39;t be mad that I hate pickles. I am just tryin to get my reddit on and have some fun here. I&amp;#39;m not forcing anyone to check out subreddits I link to. I am just providing links I think are interesting to people. It is their choice what they want to check out.&lt;/p&gt;\n\n&lt;p&gt;Reddit has places like &lt;a href=\"/r/ImGoingToHellForThis\"&gt;/r/ImGoingToHellForThis&lt;/a&gt; and &lt;a href=\"/r/deadbabyjokes\"&gt;/r/deadbabyjokes&lt;/a&gt; and&lt;a href=\"/r/spacedicks\"&gt;/r/spacedicks&lt;/a&gt;  but you are gettin mad at me? Jesus get your priorities straight. I&amp;#39;m not spamming links to my own sites, I try to find  a variety of sources to link to.&lt;/p&gt;\n&lt;/div&gt;",
+                        "created": 1374039699.0,
+                        "created_utc": 1374010899.0,
+                        "distinguished": null,
+                        "downs": 7,
+                        "edited": false,
+                        "gilded": 0,
+                        "id": "cb41ruq",
+                        "likes": null,
+                        "link_id": "t3_1iep4e",
+                        "name": "t1_cb41ruq",
+                        "num_reports": null,
+                        "parent_id": "t3_1iep4e",
+                        "replies": {
+                            "data": {
+                                "after": null,
+                                "before": null,
+                                "children": [
+                                    {
+                                        "data": {
+                                            "approved_by": null,
+                                            "author": "[deleted]",
+                                            "author_flair_css_class": null,
+                                            "author_flair_text": null,
+                                            "banned_by": null,
+                                            "body": "In the scheme of things it's not a big deal, no one was comparing you to hitler. But it's obvious you're gaming and spamming reddit and should be called out for it.",
+                                            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;In the scheme of things it&amp;#39;s not a big deal, no one was comparing you to hitler. But it&amp;#39;s obvious you&amp;#39;re gaming and spamming reddit and should be called out for it.&lt;/p&gt;\n&lt;/div&gt;",
+                                            "created": 1374067437.0,
+                                            "created_utc": 1374038637.0,
+                                            "distinguished": null,
+                                            "downs": 0,
+                                            "edited": false,
+                                            "gilded": 0,
+                                            "id": "cb4b9br",
+                                            "likes": null,
+                                            "link_id": "t3_1iep4e",
+                                            "name": "t1_cb4b9br",
+                                            "num_reports": null,
+                                            "parent_id": "t1_cb41ruq",
+                                            "replies": "",
+                                            "score_hidden": false,
+                                            "subreddit": "HailCorporate",
+                                            "subreddit_id": "t5_2t1sc",
+                                            "ups": 4
+                                        },
+                                        "kind": "t1"
+                                    }
+                                ],
+                                "modhash": ""
+                            },
+                            "kind": "Listing"
+                        },
+                        "score_hidden": false,
+                        "subreddit": "HailCorporate",
+                        "subreddit_id": "t5_2t1sc",
+                        "ups": 3
+                    },
+                    "kind": "t1"
+                }
+            ],
+            "modhash": ""
+        },
+        "kind": "Listing"
+    }
+]
