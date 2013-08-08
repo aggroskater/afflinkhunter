@@ -139,7 +139,7 @@ eval {
     #spit out the domains in each subreddit's "hot" queue.
     foreach my $g(@{$json_text->{data}{children}}) {
       print $g."\n";
-      print $g->{data}{domain}."\n";
+      print $g->{data}{url}."\n";
 
     }
 
