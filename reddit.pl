@@ -79,6 +79,8 @@ eval {
   my @internal_links;
 
   #FINALLY SOMETHING THAT WORKS
+  #This will go through all top-level replies to a thread in search
+  #of internal subreddit links. Still need to get reply traversal working
   foreach my $f(@$json_text[1]->{data}{children}) {
     #print $f->{data}{author}."\n";
     print $f."\n";
@@ -101,6 +103,57 @@ eval {
     $i = "/r/".$i;
     print $i."\n";
   }
+
+  #Ok. @internal_links has got a list of subreddits. Now, our target is 
+  #creating subreddits filled with afflink spam. So well established 
+  #subreddits aren't our mark. We're looking for subreddits that aren't 
+  #in the top 1000 or so subreddits (The number 1000 pulled out of my ass just
+  #now). The point is that these trojan subreddits don't have lots of 
+  #subscribers. As well, activity seems to come in spurts. Weeks can go by 
+  #before another "sheet" of ads gets bumped to the trojan subreddit's 
+  #front page. Presumably, this is done whenever the spammer feels the 
+  #current crop of afflinks has gone stale.
+  
+  #For now, I'm focusing on grabbing the front page from a given subreddit 
+  #and scraping all the users that post to them as well as the mods. Then, we
+  #will scrape the users' comment feeds assuming those still exist (often the
+  #user itself is banned even though the subreddit remains) for more afflink
+  #subreddit namedrops from them. We can also run some stats on the front page
+  #links to see if there's any way we can establish a unique token for the
+  #spammer that may be operating over numerous users.
+
+  #subreddit frontpage scrape for usernames begins below.
+
+  #blahblahblahasdfasdfasdf
+
+  foreach my $f(@internal_links) {
+
+    #form URL
+    my $url = "http://www.reddit.com".$f."/hot.json";
+    
+    #grab JSON
+    $browser->get($url);
+    my $content = $browser->content(); 
+    my $json_text = $json->allow_nonref->utf8->relaxed->escape_slash->loose->allow_singlequote->allow_barekey->decode($content); 
+
+    #spit out the domains in each subreddit's "hot" queue.
+    foreach my $g(@{$json_text->{data}{children}}) {
+      print $g."\n";
+      print $g->{data}{domain}."\n";
+
+    }
+
+    #wait 5 seconds so we don't meet the business end of reddit's 
+    #banhammer.
+    sleep 5; 
+
+  }
+
+  #Lol it worked. I'm slowly but surely getting the hang of this.
+
+  #username comment spidering begins below.
+
+  #asdfasdfasdfblahblahblah
 
 #  for (my $i = 0; $i < 10 ; $i++) {
 #    print @$json_text[1]->{data}->{children}[$i]->{data}{author}."\n";
