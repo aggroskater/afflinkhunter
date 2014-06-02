@@ -27,6 +27,7 @@
 
 use LWP::Protocol::AnyEvent::http;
 use WWW::Mechanize;
+use EV;
 use AnyEvent::HTTP::LWP::UserAgent;
 use AnyEvent;
 
@@ -63,4 +64,5 @@ foreach my $link ($mech->links) {
 }
 
 $cv->end;
-$cv->recv;
+#$cv->recv;
+EV::loop;
