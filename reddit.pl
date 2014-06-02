@@ -34,8 +34,9 @@ use JSON -support_by_pp;
 #
 # I'll need an event handler/scheduler to queue API requests. Looking at 
 # libev/EV module to handle this (The Event module, however, has excellent
-# documentation about event loops in general in a nice PDF; should read up on
-# this in any case). I will need to run stats on the various users and
+# documentation about event loops in general in a nice PDF
+# (http://cpansearch.perl.org/src/JPRIT/Event-1.21/Tutorial.pdf); should read
+# up on this in any case). I will need to run stats on the various users and
 # subreddits. Thankfully, this and the API calls are not inter-dependent, so I
 # don't need to deal with any locking mechanisms. The handler will just dump
 # relevant data into a queue at whatever rate the Reddit API accepts (one
@@ -194,7 +195,7 @@ eval {
 
 #  }
 
-};
+}; #end of main eval
 
 if($@) {
 
