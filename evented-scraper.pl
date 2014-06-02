@@ -30,6 +30,14 @@ use WWW::Mechanize;
 use EV;
 use AnyEvent::HTTP::LWP::UserAgent;
 use AnyEvent;
+use AnyEvent::Log;
+
+AnyEvent::Log::ctx->level ("trace");
+
+$AnyEvent::Log::COLLECT->attach (new AnyEvent::Log::Ctx
+  level => "trace",
+  log_to_file => "ae-log.txt",
+);
 
 # get the url
 my $url = "http://aspensmonster.com";
@@ -44,6 +52,7 @@ my $cv = AnyEvent->condvar ( cb => sub { warn "done"; } );
 
 # set up a watcher to catch SIGINT
 my $w = AnyEvent->signal (signal => "INT", cb => sub {
+  AE::log info => "Inside sig catcher cb.";
   print "Caught SIGINT. Shutting down.\n";
   exit 1;
 });
@@ -66,18 +75,41 @@ my $w = AnyEvent->signal (signal => "INT", cb => sub {
 # Aaaaaaand now I'm wanting to get back to C again. Gotta stick with Perl
 # for now.
 
+AE::log info => "Before first cv->begin";
+
 $cv->begin;
+
+AE::log info => "After first cv->begin";
 
 foreach my $link ($mech->links) {
 
+  AE::log info => "Inside for loop, before cv->begin";
+
   $cv->begin;
+
+  AE::log info => "Inside for loop, after cv->begin";
+
   $ua->get_async($link->url)->cb( sub {
+  AE::log info => "Inside get_async callback, before cv->end";
   print "Got " . $link->url . "\n";
   $cv->end;
+  AE::log info => "Inside get_async callback, after cv->end";
   });
+
+  AE::log info => "Inside for loop, after async";
 
 }
 
+AE::log info => "After first cv->begin, before cv->end";
+
 $cv->end;
+
+AE::log info => "After first cv->begin, after cv->end, before cv->recv";
+
 #$cv->recv;
+
+AE::log info => "After cv->recv, before EV::loop";
+
 EV::loop;
+
+AE::log info => "After EV::loop";
