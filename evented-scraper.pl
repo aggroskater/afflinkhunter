@@ -31,12 +31,15 @@ use EV;
 use AnyEvent::HTTP::LWP::UserAgent;
 use AnyEvent;
 use AnyEvent::Log;
+use POSIX qw/strftime/;
 
 AnyEvent::Log::ctx->level ("trace");
+my $timestamp = strftime('%F-%T',localtime);
+print $timestamp;
 
 $AnyEvent::Log::COLLECT->attach (new AnyEvent::Log::Ctx
   level => "trace",
-  log_to_file => "ae-log.txt",
+  log_to_file => "ae-log-$timestamp.txt",
 );
 
 # get the url
