@@ -10,8 +10,10 @@ use Data::Printer;
 my $url = "http://www.reddit.com/comments/1iep4e.json";
 my $browser = WWW::Mechanize->new();
 
+my $url_user = "http://www.reddit.com/user/aspensmonster/about.json";
+
 #grab the json
-$browser->get($url);
+$browser->get($url_user);
   
 my $content = $browser->content();
 my $json = new JSON;

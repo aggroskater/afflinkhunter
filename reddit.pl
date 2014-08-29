@@ -82,8 +82,9 @@ eval {
   #FINALLY SOMETHING THAT WORKS
   #This will go through all top-level replies to a thread in search
   #of internal subreddit links. Still need to get reply traversal working
-  foreach my $f(@{$json_text}[1]->{data}{children}) {
-    #print $f->{data}{author}."\n";
+#  foreach my $f(@{$json_text}[1]->{data}{children}) {
+  foreach my $f($json_text->[1]->{data}{children}) {
+     #print $f->{data}{author}."\n";
     print $f."\n";
     foreach my $g(@$f) {
       print $g."\n";
