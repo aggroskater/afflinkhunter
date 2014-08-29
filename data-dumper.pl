@@ -11,9 +11,10 @@ my $url = "http://www.reddit.com/comments/1iep4e.json";
 my $browser = WWW::Mechanize->new();
 
 my $url_user = "http://www.reddit.com/user/aspensmonster/about.json";
+my $url_fp = "http://www.reddit.com/hot.json";
 
 #grab the json
-$browser->get($url_user);
+$browser->get($url_fp);
   
 my $content = $browser->content();
 my $json = new JSON;
