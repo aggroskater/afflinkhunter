@@ -60,6 +60,13 @@ eval {
       link_karma => $user_info->{data}->{link_karma},
       user_since => $user_info->{data}->{created_utc}
     );
+    # user object
+    $redis->hmset( "$user" , 
+      user_since => $user_info->{data}->{created_utc},
+      list_of_posts => "$user"."_list"
+    );
+    # list of posts object for user
+    $redis->lpush( "$user"."_list" => "$entry->{data}->{id}");
 
     print "**********************************" . "\n";
   }
