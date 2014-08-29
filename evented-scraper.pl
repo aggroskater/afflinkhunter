@@ -8,7 +8,7 @@
 # http://www.perlmonks.org/?node_id=866074
 #
 #tl;dr: the man (or woman) knows his (or her) shit. S/he was able to
-#coalesce everything I learned desparately while in school into a single,
+#coalesce everything I learned disparately while in school into a single,
 #intuitive, stream of thoughts on the matter that addresses all sorts of
 #misconceptions and sources of confusion.
 #
