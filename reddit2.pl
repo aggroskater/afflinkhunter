@@ -68,6 +68,14 @@ eval {
     # list of posts object for user
     $redis->lpush( "$user"."_list" => "$entry->{data}->{id}");
 
+    # SIDENOTE: Redis' documentation is fucking awesome:
+    #
+    # http://redis.io/commands
+    #
+    # as is the Perl module's:
+    #
+    # https://metacpan.org/pod/Redis::Client
+
     print "**********************************" . "\n";
   }
 
